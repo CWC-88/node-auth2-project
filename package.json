@@ -1,0 +1,36 @@
+{
+  "name": "auth2-project",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CWC-88/node-auth2-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CWC-88/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/CWC-88/node-auth2-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.2",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
